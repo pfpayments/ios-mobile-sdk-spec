@@ -11,7 +11,7 @@
 
 # PostFinanceCheckoutSdk
 
-[ios SDK Release on GitHub](https://github.com/pfpayments/ios-mobile-sdk/releases)
+[iOS SDK Release on GitHub](https://github.com/pfpayments/ios-mobile-sdk/releases)
 
 ## Installation
 
@@ -30,7 +30,7 @@ target 'DemoApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod ‘PostFinanceCheckoutSdk’, '1.4.2'
+  pod ‘PostFinanceCheckoutSdk’, '1.4.3'
 
   target 'DemoAppTests' do
     inherit! :search_paths
@@ -41,7 +41,7 @@ end
 
 #### From GitHub repository
 
-`pod 'PostFinanceCheckoutSdk', '1.4.2', :source=> 'https://github.com/pfpayments/ios-mobile-sdk.git'`
+`pod 'PostFinanceCheckoutSdk', '1.4.3', :source=> 'https://github.com/pfpayments/ios-mobile-sdk.git'`
 
 and
 
@@ -52,7 +52,7 @@ target 'DemoApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'PostFinanceCheckoutSdk', '1.4.2', :source => 'https://github.com/pfpayments/ios-mobile-sdk.git'
+  pod 'PostFinanceCheckoutSdk', '1.4.3', :source => 'https://github.com/pfpayments/ios-mobile-sdk.git'
   pod 'PaymentResources', '5.0.0'
 
   target 'DemoAppTests' do
